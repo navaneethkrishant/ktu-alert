@@ -37,7 +37,7 @@ function checkForChange() {
     
     else if(cell.getValue() != text){
       cell.setValue(text);
-      MailApp.sendEmail('biswasb007@gmail.com', 'ktu alert', 'New change for '+find+'\n'+text)
+      MailApp.sendEmail('biswasb007@gmail.com', 'ktu alert', 'New  change for '+find+'\n'+text)
     }
   }
   
