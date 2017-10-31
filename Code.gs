@@ -30,7 +30,7 @@ function checkForChange() {
     var sheet = SpreadsheetApp.getActiveSheet();  
     var cell = sheet.getRange(1,1);
     
-    if(cell.getValue() == ''){
+    if(cell.getValue() == ''){  //to check condition
       cell.setValue(text);
       MailApp.sendEmail('biswasb007@gmail.com', 'ktu alert', 'New change for '+find+'\n'+text)
     }
