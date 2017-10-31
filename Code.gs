@@ -9,7 +9,7 @@ function init() {
 
 function checkForChange() {
   
-  //The string to search for
+  //to search the string
   var find = 'S3';
   
   var url = 'https://ktu.edu.in/eu/core/announcements.htm';
